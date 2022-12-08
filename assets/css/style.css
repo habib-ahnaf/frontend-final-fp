@@ -14,7 +14,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #fff;
+  background-color: #F5F5F5;
   color: #444444;
 }
 
@@ -251,6 +251,9 @@ h6 {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
 
+.card-dsbrd{
+  background-color: #fff
+}
 .card-header {
   border-color: #ebeef4;
   background-color: #fff;
@@ -261,6 +264,13 @@ h6 {
 .card-title {
   padding: 20px 0 15px 0;
   font-size: 18px;
+  font-weight: 500;
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+}
+.card-title-dsbrd {
+  padding: 20px 0 15px 0;
+  font-size: 25px;
   font-weight: 500;
   color: #012970;
   font-family: "Poppins", sans-serif;
@@ -423,6 +433,7 @@ h6 {
 .search-bar {
   min-width: 360px;
   padding: 0 20px;
+  border-radius: 2rem;
 }
 
 @media (max-width: 1199px) {
@@ -708,9 +719,9 @@ h6 {
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: #4154f1;
+  color: #fff;
   transition: 0.3;
-  background: #f6f9ff;
+  background: #022CA2;
   padding: 10px 15px;
   border-radius: 4px;
 }
@@ -718,7 +729,7 @@ h6 {
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #4154f1;
+  color: #899bbd;
 }
 
 .sidebar-nav .nav-link.collapsed {
@@ -774,11 +785,12 @@ h6 {
 
 .sidebar-nav .nav-content a:hover,
 .sidebar-nav .nav-content a.active {
+  background-color: #01156C;
   color: #fff;
 }
 
 .sidebar-nav .nav-content a.active i {
-  background-color: #fff;
+  background-color: #4154f1;
 }
 
 /*--------------------------------------------------------------
@@ -1347,4 +1359,16 @@ h6 {
 
 .username-form button i {
   color: #012970;
+}
+
+.row-profile{
+color: white;
+}
+
+.ps-31{
+  font-size: 32px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: auto;
+  margin-right: auto;
 }

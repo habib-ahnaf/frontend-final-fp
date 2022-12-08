@@ -44,7 +44,7 @@
 
                 <a class="nav-profile d-flex align-items-center pe-0" href="#">
                     <img src="assets/img/unnamed.jpg" alt="Profile" class="rounded-circle" width="100" height="100">
-                    <div class="row">
+                    <div class="row-profile">
                         <div class="col">
                             <h4 class="d-none d-md-block ps-3">BAPPEDA</h4>
                         </div>
@@ -119,108 +119,71 @@
 
             <section class="section">
                 <div class="row">
-
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Jumlah Masukan</h5>
-
-                                <!-- Pie Chart -->
-                                <canvas id="pieChart" style="max-height: 400px;"></canvas>
-                                <script>
-                                    document.addEventListener("DOMContentLoaded", () => {
-                                    new Chart(document.querySelector('#pieChart'), {
-                                        type: 'pie',
-                                        data: {
-                                        labels: [
-                                            'Belum mengumpulkan',
-                                            'Sudah mengumpulkan'
-                                        ],
-                                        datasets: [{
-                                            label: 'My First Dataset',
-                                            data: [70, 30],
-                                            backgroundColor: [
-                                            'rgb(255, 99, 132)',
-                                            'rgb(54, 162, 235)'
-                                            ],
-                                            hoverOffset: 4
-                                        }]
-                                        }
-                                    });
-                                    });
-                                </script>
-                                <!-- End Pie CHart -->
-
-                            </div>
-                        </div>
+                                <!-- Sales Card -->
+            <div class="col-xxl-4 col-md-6">
+                <div class="card info-card sales-card">
+  
+                  <div class="card-body">
+                    <h1 class="card-title-dsbrd">Jumlah Data Usulan</h1>
+  
+                    <div class="d-flex align-items-center">
+                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="bi bi-newspaper" style="font-size: 35px;"></i>
+                      </div>
+                      <div class="ps-31">
+                        <h3>145</h3>
+                      </div>
                     </div>
-
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Jumlah Kelurahan</h5>
-
-                                <!-- Pie Chart -->
-                                <canvas id="pieChart1" style="max-height: 400px;"></canvas>
-                                <script>
-                                    document.addEventListener("DOMContentLoaded", () => {
-                                    new Chart(document.querySelector('#pieChart1'), {
-                                        type: 'pie',
-                                        data: {
-                                        labels: [
-                                            'Belum mengumpulkan',
-                                            'Sudah mengumpulkan'
-                                        ],
-                                        datasets: [{
-                                            label: 'My First Dataset',
-                                            data: [70, 30],
-                                            backgroundColor: [
-                                            'rgb(255, 99, 132)',
-                                            'rgb(54, 162, 235)'
-                                            ],
-                                            hoverOffset: 4
-                                        }]
-                                        }
-                                    });
-                                    });
-                                </script>
-                                <!-- End Pie CHart -->
-
-                            </div>
-                        </div>
+                  </div>
+  
+                </div>
+              </div><!-- End Sales Card -->
+  
+              <!-- Revenue Card -->
+              <div class="col-xxl-4 col-md-6">
+                <div class="card info-card revenue-card">
+    
+                  <div class="card-body">
+                    <h1 class="card-title-dsbrd">Jumlah Kelurahan </h1>
+  
+                    <div class="d-flex align-items-center">
+                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="bi bi-house-door" style="font-size: 35px;"  ></i>
+                      </div>
+                      <div class="ps-31">
+                        <h3>$3,264</h3>
+                      </div>
                     </div>
-
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Jumlah Kecamatan</h5>
-
-                                <!-- Pie Chart -->
-                                <canvas id="pieChart2" style="max-height: 400px;"></canvas>
-                                <script>
-                                    document.addEventListener("DOMContentLoaded", () => {
-                                    new Chart(document.querySelector('#pieChart2'), {
-                                        type: 'pie',
-                                        data: {
-                                        labels: [
-                                            'Belum mengumpulkan',
-                                            'Sudah mengumpulkan'
-                                        ],
-                                        datasets: [{
-                                            label: 'My First Dataset',
-                                            data: [70, 30],
-                                            backgroundColor: [
-                                            'rgb(255, 99, 132)',
-                                            'rgb(54, 162, 235)'
-                                            ],
-                                            hoverOffset: 4
-                                        }]
-                                        }
-                                    });
-                                    });
-                                </script>
-                                <!-- End Pie CHart -->
-
+                  </div>
+  
+                </div>
+              </div><!-- End Revenue Card -->
+  
+              <!-- Customers Card -->
+              
+              <div class="col-xxl-4 col-xl-12">
+  
+                <div class="card-dsbrd">
+  
+                  <div class="card-body">
+                    <h1 class="card-title-dsbrd"> Jumlah kecamatan</h1>
+  
+                    <div class="d-flex align-items-center">
+                      <div class="position-relative">
+                        <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                          <i class="bi bi-building" style="font-size: 35px;"></i>
+                        </div>
+                      </div>
+                      <div class="ps-31">
+                        <h3>1244</h3>
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+  
+              </div><!-- End Customers Card -->
+  
                             </div>
                         </div>
                     </div>
