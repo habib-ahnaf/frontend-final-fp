@@ -427,7 +427,7 @@ h6 {
   font-size: 32px;
   padding-left: 10px;
   cursor: pointer;
-  color: #012970;
+  color: #fff;
 }
 
 .search-bar {
@@ -719,7 +719,7 @@ h6 {
   align-items: center;
   font-size: 15px;
   font-weight: 600;
-  color: #4154f1;
+  color: #ffffff;
   transition: 0.3;
   background: #022CA2;
   padding: 10px 15px;
@@ -729,7 +729,7 @@ h6 {
 .sidebar-nav .nav-link i {
   font-size: 16px;
   margin-right: 10px;
-  color: #4154f1;
+  color: #899bbd;
 }
 
 .sidebar-nav .nav-link.collapsed {
