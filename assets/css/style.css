@@ -631,6 +631,13 @@ h6 {
   background-color: #f6f9ff;
 }
 
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
@@ -1326,4 +1333,9 @@ h6 {
   padding-top: 15px;
   padding-bottom: auto;
   padding-right: 15px;
+}
+
+.icon-logo{
+  font-size:100px;
+  justify-content:center;
 }
